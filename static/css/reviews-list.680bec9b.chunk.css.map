@@ -1,0 +1,1 @@
+{"version":3,"sources":["ListReviews.module.css"],"names":[],"mappings":"AAAA,2BACE,kBACF,CAEA,yBACE,kBACF","file":"reviews-list.680bec9b.chunk.css","sourcesContent":[".author {\n  margin-bottom: 10px;\n}\n\n.text {\n  margin-bottom: 20px;\n}\n"]}

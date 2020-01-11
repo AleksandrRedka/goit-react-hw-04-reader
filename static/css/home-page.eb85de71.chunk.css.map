@@ -1,0 +1,1 @@
+{"version":3,"sources":["HeaderTitle.module.css","ListMovies.module.css"],"names":[],"mappings":"AAAA,gCACE,kBACF,CCFA,wBACE,iBACF","file":"home-page.eb85de71.chunk.css","sourcesContent":[".headerTitle {\n  margin-bottom: 30px;\n}\n",".link {\n  margin-bottom: 5px;\n}\n"]}
