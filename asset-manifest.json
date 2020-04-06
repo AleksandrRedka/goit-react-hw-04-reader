@@ -9,8 +9,8 @@
     "home-page.js": "/goit-react-hw-04-reader/static/js/home-page.3a2d8c83.chunk.js",
     "home-page.js.map": "/goit-react-hw-04-reader/static/js/home-page.3a2d8c83.chunk.js.map",
     "main.css": "/goit-react-hw-04-reader/static/css/main.fff0fea7.chunk.css",
-    "main.js": "/goit-react-hw-04-reader/static/js/main.a5f3e2e1.chunk.js",
-    "main.js.map": "/goit-react-hw-04-reader/static/js/main.a5f3e2e1.chunk.js.map",
+    "main.js": "/goit-react-hw-04-reader/static/js/main.ac6ae713.chunk.js",
+    "main.js.map": "/goit-react-hw-04-reader/static/js/main.ac6ae713.chunk.js.map",
     "movies-details-page.css": "/goit-react-hw-04-reader/static/css/movies-details-page.2da2aff9.chunk.css",
     "movies-details-page.js": "/goit-react-hw-04-reader/static/js/movies-details-page.8d653c7c.chunk.js",
     "movies-details-page.js.map": "/goit-react-hw-04-reader/static/js/movies-details-page.8d653c7c.chunk.js.map",
@@ -25,7 +25,7 @@
     "static/js/8.cf3b8cb6.chunk.js": "/goit-react-hw-04-reader/static/js/8.cf3b8cb6.chunk.js",
     "static/js/8.cf3b8cb6.chunk.js.map": "/goit-react-hw-04-reader/static/js/8.cf3b8cb6.chunk.js.map",
     "index.html": "/goit-react-hw-04-reader/index.html",
-    "precache-manifest.1844118e3b0154ecb1291e71f96d13d9.js": "/goit-react-hw-04-reader/precache-manifest.1844118e3b0154ecb1291e71f96d13d9.js",
+    "precache-manifest.f0238b4121423de98f34486a3cef7a17.js": "/goit-react-hw-04-reader/precache-manifest.f0238b4121423de98f34486a3cef7a17.js",
     "service-worker.js": "/goit-react-hw-04-reader/service-worker.js",
     "static/css/cast-list.8c6fefab.chunk.css.map": "/goit-react-hw-04-reader/static/css/cast-list.8c6fefab.chunk.css.map",
     "static/css/home-page.eb85de71.chunk.css.map": "/goit-react-hw-04-reader/static/css/home-page.eb85de71.chunk.css.map",
@@ -40,6 +40,6 @@
     "static/js/runtime-main.fae4e5c0.js",
     "static/js/8.cf3b8cb6.chunk.js",
     "static/css/main.fff0fea7.chunk.css",
-    "static/js/main.a5f3e2e1.chunk.js"
+    "static/js/main.ac6ae713.chunk.js"
   ]
 }
