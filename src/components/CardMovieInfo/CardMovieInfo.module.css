@@ -1,0 +1,17 @@
+.movieInfo {
+  padding: 15px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+}
+
+.movieInfo h3 {
+  margin-top: 0;
+}
+
+.movieInfo ul>li {
+  margin-bottom: 10px;
+}
+
+.movieInfoLink {
+  color: rgb(0, 32, 211);
+}

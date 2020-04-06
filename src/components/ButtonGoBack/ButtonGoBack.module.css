@@ -1,0 +1,13 @@
+.butonGoBack {
+  width: 5vw;
+  font-size: 12px;
+  line-height: 16px;
+  border-bottom: 1px solid rgba(209, 81, 81, 0.425);
+  margin-bottom: 2vh;
+  transition: 450ms;
+  border-radius: 5px 5px 0 0;
+}
+
+.butonGoBack:hover {
+  background-color: rgba(209, 81, 81, 0.425);
+}

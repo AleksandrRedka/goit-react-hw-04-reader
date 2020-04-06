@@ -1,0 +1,36 @@
+.list {
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.cardActor {
+  width: 30%;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.cardActorImg {
+  overflow: hidden;
+  position: relative;
+  width: 160px;
+  height: 240px;
+  margin-right: 10px;
+}
+
+.cardActorImg>img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 100%;
+  width: auto;
+}
+
+.cardActorInfo {
+  display: flex;
+  flex-direction: column;
+}

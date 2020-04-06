@@ -1,0 +1,48 @@
+.movieCard {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.movieImg {
+  position: relative;
+  overflow: hidden;
+  width: 30%;
+  min-height: 550px;
+  margin-right: 20px;
+
+}
+
+.movieImg img {
+
+  width: 100%;
+  height: auto;
+
+}
+
+.movieDescription {
+  width: 60%;
+  margin-top: 50px;
+}
+
+
+.movieDescription h1,
+h2,
+h3 {
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.movieGenres {
+  display: flex;
+  flex-direction: row;
+}
+
+.movieGenres li {
+  margin-right: 25px;
+}
+
+.movieGenres li:last-child {
+  margin-right: 0;
+}

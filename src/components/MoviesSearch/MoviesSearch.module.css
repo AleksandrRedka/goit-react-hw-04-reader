@@ -1,0 +1,37 @@
+.formSearch {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-bottom: 5vh;
+}
+
+.label {
+  width: 40%;
+  margin-right: 40px;
+}
+
+.label input {
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Roboto, sans-serif;
+  width: 100%;
+  border-bottom: 2px solid rgba(209, 81, 81, 0.425);
+}
+
+.label input:focus {
+  border-bottom: 2px solid rgb(206, 87, 87);
+}
+
+.formSearch button {
+  width: 15%;
+  border: 1px solid rgba(209, 81, 81, 0.425);
+  border-radius: 5px;
+  font-size: 16px;
+  line-height: 20px;
+  transition: 450ms;
+
+}
+
+.formSearch button:hover {
+  background-color: rgba(209, 81, 81, 0.425);
+}
