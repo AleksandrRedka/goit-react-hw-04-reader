@@ -3,7 +3,6 @@ import { Route } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import * as fetchAPI from '../components/services/filmAPI';
 import CardMovie from '../components/CardMovie/CardMovie';
-import Paragraph from '../components/Paragraph/Paragraph';
 
 const getIdFromProps = props => props.match.params.movieId;
 
@@ -32,8 +31,6 @@ const mapper = ({
 export default class MoviePage extends Component {
   state = {
     movieDetails: null,
-    // reviews: [],
-    // cast: [],
   };
 
   static propTypes = {
@@ -42,6 +39,9 @@ export default class MoviePage extends Component {
     }).isRequired,
     history: PropTypes.shape({
       push: PropTypes.func.isRequired,
+    }).isRequired,
+    location: PropTypes.shape({
+      state: PropTypes.shape().isRequired,
     }).isRequired,
   };
 
@@ -55,8 +55,12 @@ export default class MoviePage extends Component {
   }
 
   handleGoBack = () => {
-    const { history } = this.props;
-    history.push('/movies');
+    const { history, location } = this.props;
+    if (location.state.prevPage) {
+      history.push(location.state.prevPage);
+    } else {
+      history.push('/');
+    }
   };
 
   render () {

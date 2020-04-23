@@ -20,7 +20,7 @@ export default class HomePage extends Component {
     return (
       <div>
         <HeaderTitle title='Trending today' />
-        <ListMovies moviesLinks={moviesLinks} />
+        <ListMovies moviesLinks={moviesLinks} nameMovie='' path='/' />
       </div>
     );
   }

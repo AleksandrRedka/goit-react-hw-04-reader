@@ -17,6 +17,9 @@ export default class MoviesPage extends Component {
     location: PropTypes.shape({
       pathname: PropTypes.string.isRequired,
       search: PropTypes.string.isRequired,
+      state: PropTypes.shape({
+        searchValue: PropTypes.string,
+      }),
     }).isRequired,
   };
 
@@ -43,6 +46,7 @@ export default class MoviesPage extends Component {
 
   render () {
     const { searchMovie, moviesLinks } = this.state;
+    const { location } = this.props;
     return (
       <div>
         <MoviesSearch
@@ -50,7 +54,9 @@ export default class MoviesPage extends Component {
           onChange={this.handleChandleSearch}
           onSubmit={this.handleSubmitForm}
         />
-        {moviesLinks.length > 0 && <ListMovies moviesLinks={moviesLinks} />}
+        {moviesLinks.length > 0 && (
+          <ListMovies moviesLinks={moviesLinks} path={location.pathname} />
+        )}
       </div>
     );
   }

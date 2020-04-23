@@ -2,7 +2,6 @@ import React, { Suspense, lazy } from 'react';
 import { Switch, Route } from 'react-router-dom';
 import styles from './App.module.css';
 import Nav from '../Nav/Nav';
-import NotFound from '../NotFound/NotFound';
 
 const AsyncHome = lazy(() =>
   import('../../routes/Home' /* webpackChunkName: "home-page" */),
@@ -23,10 +22,9 @@ const App = () => {
         <Nav />
         <div className={styles.container}>
           <Switch>
-            <Route path='/' exact component={AsyncHome} />
             <Route path='/movies/:movieId' component={AsyncMovieDetailsPage} />
             <Route path='/movies' component={AsyncMovies} />
-            <Route component={NotFound} />
+            <Route component={AsyncHome} />
           </Switch>
         </div>
       </Suspense>

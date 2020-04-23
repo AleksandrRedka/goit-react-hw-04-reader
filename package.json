@@ -17,7 +17,7 @@
     "shortid": "^2.2.15",
     "styled-components": "^4.4.1"
   },
-  "homepage": "https://aleksandrredka.github.io/goit-react-hw-04-reader/#/",
+  "homepage": "https://aleksandrredka.github.io/goit-react-hw-04-reader/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -55,6 +55,5 @@
     "lint-staged": "^9.4.3",
     "prettier": "^1.19.1",
     "prop-types": "^15.7.2"
-  },
-  "homepage": "https://aleksandrredka.github.io/goit-react-hw-04-reader/"
+  }
 }

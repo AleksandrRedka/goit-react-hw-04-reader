@@ -1,4 +1,6 @@
 import React from 'react';
+import { withRouter } from 'react-router-dom';
+import PropTypes from 'prop-types';
 import styles from './ButtonGoBack.module.css';
 
 function ButtonGoBack ({ goBack }) {
@@ -11,6 +13,8 @@ function ButtonGoBack ({ goBack }) {
   );
 }
 
-ButtonGoBack.propTypes = {};
+ButtonGoBack.propTypes = {
+  goBack: PropTypes.func.isRequired,
+};
 
-export default ButtonGoBack;
+export default withRouter(ButtonGoBack);
