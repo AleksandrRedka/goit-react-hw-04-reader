@@ -22,6 +22,7 @@ const App = () => {
         <Nav />
         <div className={styles.container}>
           <Switch>
+            <Route path='/' exact component={AsyncHome} />
             <Route path='/movies/:movieId' component={AsyncMovieDetailsPage} />
             <Route path='/movies' component={AsyncMovies} />
             <Route component={AsyncHome} />
